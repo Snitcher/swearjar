@@ -1,5 +1,5 @@
 {
-	"name": "Snitcher/swearjar",
+	"name": "snitcher/swearjar",
 	"type": "library",
 	"description": "Profanity detection lib, updated to work with symfony/yaml 3.* -- Original package: swearjar/swearjar by @raymondjavaxx",
 	"keywords":["profanity", "censor", "swear", "curse"],
