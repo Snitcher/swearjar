@@ -1,0 +1,23 @@
+{
+	"name": "Snitcher/swearjar",
+	"type": "library",
+	"description": "Profanity detection lib, updated to work with symfony/yaml 3.* -- Original package: swearjar/swearjar by @raymondjavaxx",
+	"keywords":["profanity", "censor", "swear", "curse"],
+	"homepage":"http://github.com/Snitcher/swearjar",
+	"license":"MIT",
+	"authors":[
+		{
+			"name": "Jerre Baumeister",
+			"email": "jerre@snitcher.com"
+		}
+	],
+	"autoload": {
+		"psr-0": {"swearjar": "libraries/"}
+	},
+	"require": {
+		"symfony/yaml": "3.*"
+	},
+	"require-dev": {
+	  "phpunit/phpunit": "~4.4"
+	}
+}
